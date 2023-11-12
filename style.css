@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+#header {
+  padding: 30px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.block a {
+  text-decoration: none;
+  color: #19191b;
+  transition: 0.4s;
+  padding-bottom: 10px;
+}
+.block a:hover {
+  border-bottom: 3px solid #5454d4;
+}
+.block {
+  display: flex;
+  gap: 40px;
+}
+.btn {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  width: 211px;
+  height: 60px;
+  border-radius: 10px;
+  background: #ff7143;
+  border: none;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-nav h1 {
+  color: #19191b;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: -2.501px;
+  margin-top: 50px;
+}
+.hero-text h5 {
+  color: #696871;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.625px;
+  margin-top: 30px;
+}
+.hero-btn button {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  width: 211px;
+  height: 60px;
+  border-radius: 10px;
+  background: #5454d4;
+}
+.hero-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.hero-btn img {
+  margin-left: 40px;
+}
+#hero {
+  padding: 50px 0;
+}
+.logo-icon {
+  display: flex;
+  justify-content: space-between;
+}
+.index-text h2 {
+  color: #19191b;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -1.563px;
+}
+.index-text p {
+  color: #696871;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: -0.625px;
+  margin: 30px 0;
+}
+.index-text h5 {
+  color: #5454d4;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.531px;
+}
+.index {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#index {
+  margin: 80px 0;
+}
+#card {
+  margin: 100px 0;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.card h4 {
+  color: #19191b;
+  font-size: 24px;
+  font-weight: 700;
+}
+.card p {
+  color: #696871;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.card img {
+  width: 91px;
+  height: 72px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+
